@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <div id="myDiv">
+    This is some text.
+  </div>
+
+  <script>
+    // Incorrect way to access element using querySelectorAll
+    let elements = document.querySelectorAll('#myDiv');
+    elements.innerHTML = "<p>This is a paragraph.</p>"; //Error: elements is a NodeList, not a single element
+  </script>
+</body>
+</html>
