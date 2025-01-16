@@ -1,0 +1,1 @@
+This repository demonstrates a common error when working with querySelectorAll in JavaScript within an HTML context.  The error arises from the misconception that querySelectorAll returns a single element when it actually returns a NodeList.  The solution showcases the correct method to handle NodeList and modify the innerHTML of the selected element.
